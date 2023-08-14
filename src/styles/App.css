@@ -1,0 +1,32 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 750px) {
+
+    header .current-position .current-position-name{
+        display: none;
+    }
+
+    header .current-position .current-position-info{
+        padding-right: 30px;
+    }
+
+    header .current-position .current-position-icon{
+        display: none;
+    }
+
+    .one{
+        display: grid;
+        width: 500px;
+        grid-template-columns: 1fr 1.5fr;
+        grid-template-rows: 50px 1fr;
+        background-color: rgba(230, 250, 255, 0.15);
+        border-radius: 5px;
+        border: 0;
+        box-shadow: 0 0 4px rgba(0,0,0,0.7);;
+        padding: 10px;
+    }
+
+}

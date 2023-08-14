@@ -1,0 +1,27 @@
+.weather-five {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.five{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(230, 250, 255, 0.15);
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 0 4px rgba(0,0,0,0.7);;
+    padding: 10px;
+}
+
+.day .temp{
+    font-weight: bold;
+}

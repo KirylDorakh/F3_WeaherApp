@@ -1,0 +1,17 @@
+header{
+    display: grid;
+    color: white;
+    background: black;
+    grid-template-columns: repeat(3, 1fr);
+    height: 80px;
+}
+
+header h1{
+    display: flex;
+    grid-column: 2/span 1;
+    align-items: center;
+    justify-content: center;
+}
+
+
+

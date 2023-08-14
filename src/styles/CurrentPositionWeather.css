@@ -1,0 +1,11 @@
+
+header .current-position{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+header .current-position .current-position-icon{
+    padding-right: 30px;
+}
