@@ -43,7 +43,6 @@ class Forms extends React.Component{
         this.setState(
             {
                 cities: ["Abu Dhabi", "London", "Minsk"],
-                city: event.target.value,
                 cityName: this.state.city
             }
         )

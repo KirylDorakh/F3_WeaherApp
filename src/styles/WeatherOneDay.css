@@ -1,0 +1,73 @@
+.weather-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.weather-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.weather-one h2{
+    grid-row: 1/span 1;
+    grid-column: 1/span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one{
+    display: grid;
+    width: 600px;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 50px 1fr;
+    background-color: rgba(230, 250, 255, 0.15);
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 0 4px rgba(0,0,0,0.7);;
+    padding: 10px;
+}
+
+.one .city-name{
+    font-size: 40px;
+    font-weight: 700;
+    grid-row: 1/span 1;
+    grid-column: 1/span 1;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.one .temp{
+    grid-row: 1/span 1;
+    grid-column: 2/span 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.one .temp .main-temp{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.one .weather-icon{
+    grid-row: 2/span 1;
+    grid-column: 2/span 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin: 0;
+}
+
+.one .weather-icon .icon{
+    width: 100px;
+    height: 100px;
+}
